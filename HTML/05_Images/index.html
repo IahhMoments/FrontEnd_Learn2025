@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Isaiah Hill" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>04_Lesson</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>my Goals for the Year!</h1>
+
+    <hr />
+
+    <nav>
+      <ul>
+        <li><a href="#html">Learn HTMl</a></li>
+        <li><a href="#vacation">Planning a Vacation</a></li>
+      </ul>
+    </nav>
+
+    <hr />
+
+    <!--Lazy loading only loads the element when it gets close to the subject when scrolling on the web-->
+    <section id="html">
+      <h2><strong>I'm ready to learn HTML!!</strong></h2>
+      <p>This is my first web page</p>
+      <img
+        src="./assets/Jasper1.JPG"
+        alt="black snouzer dog laying down"
+        title="My Dog Jasper"
+        width="500"
+        height="300"
+        loading="lazy"
+      />
+
+      <h3><strong>My Daily Schedule</strong></h3>
+      <!--This creates an "ordered list using ol (e.g 1. 2. 3.)"-->
+      Let me tell you how:
+      <ol>
+        <li>... I learn more about web dev.</li>
+        <li>... I plan out my Schedule.</li>
+        <li>
+          ... I use resources from
+          <abbr title="Mozilla Developer Network"
+            ><a href="https://developer.mozilla.org/en-US/" target="blank"
+              >MDN</a
+            ></abbr
+          >
+        </li>
+      </ol>
+    </section>
+    <hr />
+    <section id="vacation">
+      <h2><strong>I Am Also Planning a Vacation</strong></h2>
+      <p>I have been working hard and really need a getaway!</p>
+      <p>
+        I live in <abbr title="Virginia">VA</abbr> but I want to visit somewhere
+        with blue waters beautiful nature.
+      </p>
+
+      <h2>This is my Address!</h2>
+      <address>blah blah blah court street drive mayfield, VA 24234</address>
+
+      <h3><strong>Places I'd Like to Visit</strong></h3>
+
+      <!--Figure is used to group elements in a container-->
+      <figure>
+        <img
+          src="./assets/Zeus1.JPG"
+          alt="Brown bully dog zoomed in on the face"
+          title="My other dog Zeus"
+          width="250"
+          height="300"
+          loading="lazy"
+        />
+        <figcaption>This is Zeus :D</figcaption>
+      </figure>
+
+      <!--This creates an "un-ordered list using ul "-->
+      <ul>
+        <li><p>I have heard good things about Balist.</p></li>
+        <li><p>I have heard good things about New York.</p></li>
+        <li><p>I have heard good things about London.</p></li>
+      </ul>
+    </section>
+    <hr />
+    &copy; Isaiah Hill
+    <p><a href="#">Back to Top</a></p>
+  </body>
+</html>
