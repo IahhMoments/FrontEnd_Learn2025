@@ -94,6 +94,7 @@ nav a:hover {
 }
 
 /* Main Content */
+
 main {
   display: flex;
   flex-direction: column;
@@ -147,4 +148,25 @@ main {
 
 .tag-box .tag:hover {
   color: #5300a0;
+}
+
+.content h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin: 2rem 0;
+  line-height: 1.2;
+  text-shadow: 0 0 10px rgba(128, 128, 128, 0.418);
+}
+
+.description {
+  font-size: 1.2rem;
+  letter-spacing: 0.5em;
+  max-width: 35rem;
+  color: gray;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
 }
