@@ -126,12 +126,34 @@ main {
   box-shadow: 0 0 15px rgb(255, 255, 255, 0.3);
 }
 
+.spline-text {
+  background: linear-gradient(
+    to right,
+    #656565,
+    #7f42a7,
+    #6600c5,
+    #5300a0,
+    #757575,
+    #656565
+  );
+  background-clip: text;
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animationGradient 2.5s linear infinite;
+}
+
 @keyframes animationGradient {
   to {
     background-position: 200%;
   }
 }
 
+@keyframes animate-gradient {
+  to {
+    background-position: 200%;
+  }
+}
 .tag-box .tag {
   position: absolute;
   inset: 3px 3px 3px 3px;
