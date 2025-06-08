@@ -5,8 +5,7 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Playfair Display, serif;
   min-height: 100vh;
 }
 
@@ -16,6 +15,7 @@ header {
   background-color: transparent;
   position: absolute;
   top: 0;
+  left: 0;
   z-index: 10;
 }
 
@@ -27,8 +27,8 @@ header .main-nav {
 }
 
 .logo {
-  font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2.1875rem;
+  font-weight: 700;
   text-decoration: none;
   color: #fff;
 }
@@ -41,22 +41,22 @@ header .main-nav .options {
 
 header .main-nav .options li a {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.875rem;
   color: #fff;
   transition: color 0.3s ease;
 }
 
 header .main-nav .options li a:hover {
-  color: #d4a574;
+  color: #f9c06a;
 }
 
 .nav-buttons {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
 }
 
 .nav-buttons button {
-  padding: 0.5rem 1.5rem;
+  padding: 1rem 1.5rem;
   border: none;
   border-radius: 25px;
   cursor: pointer;
@@ -68,6 +68,8 @@ header .main-nav .options li a:hover {
   background-color: transparent;
   color: #fff;
   border: 2px solid #fff;
+  font-size: 0.875rem;
+  font-family: Playfair Display, serif;
 }
 
 .sign-in:hover {
@@ -76,8 +78,10 @@ header .main-nav .options li a:hover {
 }
 
 .sign-up {
-  background-color: #d4a574;
-  color: #fff;
+  background-color: #f9c06a;
+  color: black;
+  font-size: 0.875rem;
+  font-family: Playfair Display, serif;
 }
 
 .sign-up:hover {
@@ -86,53 +90,55 @@ header .main-nav .options li a:hover {
 
 /* Main Content */
 .hero {
-  position: relative;
   width: 100%;
   height: 80vh;
-  overflow: hidden;
-}
-
-.hero-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1;
+  background-image: url("./assets/coffeeBG.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
 }
 
 .hero-content {
-  text-align: center;
+  padding: 1rem;
+  text-align: left;
   color: #fff;
-  z-index: 2;
-  max-width: 600px;
-  padding: 2rem;
+  z-index: 10;
+  width: 700px;
+  position: relative;
+  left: 6%;
 }
 
-.hero-content h1 {
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+.hero-content p:first-child {
+  font-size: 1.25rem;
 }
 
-.hero-content p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+.hero-content p span {
+  font-size: 13.75rem;
+  display: block;
+  padding: 0.1em 0;
 }
 
-.hero-cta {
-  padding: 1rem 2rem;
-  background-color: #d4a574;
-  color: #fff;
+.hero-content p:last-child {
+  font-size: 1.375rem;
+}
+
+.hero-content .hero-button {
+  padding: 1rem 1.5rem;
   border: none;
   border-radius: 25px;
-  font-size: 1.1rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+  font-family: Playfair Display, serif;
+  background-color: #f9c06a;
 }
 
-.hero-cta:hover {
-  background-color: #b8915d;
+.hero-content .hero-button:hover {
+  background-color: #9e6c21;
 }
