@@ -225,3 +225,37 @@ header .main-nav .options li a:hover {
   font-family: Playfair Display, serif;
   font-weight: 600;
 }
+
+/* Section 2 Container 2 */
+
+.container-two {
+  padding: 0 6%;
+}
+
+.container-two-toplevel {
+  text-align: center;
+}
+
+.container-two span {
+  color: #603809;
+  display: block;
+  font-size: 3.375rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.container-two-toplevel > p {
+  font-size: 1.25rem;
+  line-height: 2;
+  margin-bottom: 1rem;
+  color: #707070;
+}
+
+.container-two-inner {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-two-inner .card-one {
+  text-align: center;
+}
