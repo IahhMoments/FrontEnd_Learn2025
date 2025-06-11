@@ -116,6 +116,7 @@ header .main-nav .options li a:hover {
     transparent
   );
   backdrop-filter: blur(5px);
+  /* Applied mask feature to only apply linear-gradient to the black areas of the gradient */
   mask: linear-gradient(to right, black, transparent);
   z-index: 5;
 }
