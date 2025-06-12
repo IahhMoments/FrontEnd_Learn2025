@@ -228,10 +228,6 @@ header .main-nav .options li a:hover {
 
 /* Section 2 Container 2 */
 
-.container-two {
-  padding: 0 6%;
-}
-
 .container-two-toplevel {
   text-align: center;
 }
@@ -253,9 +249,20 @@ header .main-nav .options li a:hover {
 
 .container-two-inner {
   display: flex;
-  justify-content: space-evenly;
 }
 
 .container-two-inner .card-one {
   text-align: center;
+}
+
+/* Section 2 Card 1 */
+.container-two-inner .card-one img {
+  width: 100%;
+  height: 12em;
+}
+
+.container-two-inner .card-one h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: #603809;
 }
