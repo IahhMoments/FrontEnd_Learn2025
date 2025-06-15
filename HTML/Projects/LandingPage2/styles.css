@@ -522,4 +522,32 @@ header .main-nav .options li a:hover {
   background-position: center;
   background-size: cover;
   margin-bottom: 7rem;
+  text-align: center;
+  align-content: center;
+  line-height: 1.5;
+}
+
+.section-three-container h2 {
+  font-size: 3.375rem;
+  color: #ffffff;
+}
+
+.section-three-container p {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+.section-three-container button {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+  font-family: Playfair Display, serif;
+  background-color: #f9c06a;
+  margin-top: 1.5rem;
 }
