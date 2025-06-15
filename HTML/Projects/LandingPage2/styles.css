@@ -517,5 +517,9 @@ header .main-nav .options li a:hover {
 
 .section-three-container {
   width: 100%;
-  height: 40vh;
+  height: 65vh;
+  background: url("./assets/Section3BG.jpeg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 7rem;
 }
