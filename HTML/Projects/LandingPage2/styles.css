@@ -416,7 +416,61 @@ header .main-nav .options li a:hover {
 }
 
 /* section 2 container 3 */
+
 .container-three {
-  display: flex;
   text-align: center;
+}
+
+.container-three p {
+  font-size: 1.25rem;
+  color: #707070;
+}
+
+.container-three h2 {
+  font-size: 3.375rem;
+  color: #603809;
+}
+
+.inner-container-three {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+/* Section 2 box 1 */
+
+.inner-container-three .box-one {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inner-container-three .material-symbols-outlined {
+  font-size: 7rem;
+}
+
+/* Section 2 box 2 */
+
+.inner-container-three .box-two {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inner-container-three .material-symbols-outlined {
+  font-size: 7rem;
+}
+/* Section 2 box 3 */
+
+.inner-container-three .box-three {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
