@@ -266,3 +266,26 @@ header .main-nav .options li a:hover {
   margin-top: 1rem;
   color: #603809;
 }
+
+.container-two-inner .card-one p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.container-two-inner .card-one p:last-of-type {
+  margin-bottom: 0.8rem;
+}
+
+.container-two-inner .card-one button {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+  font-family: Playfair Display, serif;
+  background-color: #f9c06a;
+}
