@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
 * {
   margin: 0;
   padding: 0;
@@ -179,8 +181,8 @@ header .main-nav .options li a:hover {
 .container-three {
   width: 100%;
   height: auto;
-  margin-top: 5rem;
-  border: 1px solid black;
+  margin-top: 7rem;
+  /* border: 1px solid black; */
 }
 
 /* Section 2 Container 1 */
@@ -382,7 +384,7 @@ header .main-nav .options li a:hover {
 }
 
 .container-two-inner .card-four img {
-  width: 100%;
+  width: 287px;
   height: 12em;
 }
 
@@ -434,7 +436,8 @@ header .main-nav .options li a:hover {
 .inner-container-three {
   margin: 1rem 0;
   display: flex;
-  justify-content: space-evenly;
+  gap: 3rem;
+  justify-content: center;
 }
 /* Section 2 box 1 */
 
@@ -445,7 +448,13 @@ header .main-nav .options li a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 3rem;
 }
+
+.inner-container-three .box-one:hover {
+  background-color: #ffeed8;
+}
+
 .inner-container-three .material-symbols-outlined {
   font-size: 7rem;
 }
@@ -459,11 +468,17 @@ header .main-nav .options li a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 3rem;
+}
+
+.inner-container-three .box-two:hover {
+  background-color: #ffeed8;
 }
 
 .inner-container-three .material-symbols-outlined {
   font-size: 7rem;
 }
+
 /* Section 2 box 3 */
 
 .inner-container-three .box-three {
@@ -473,4 +488,34 @@ header .main-nav .options li a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 3rem;
+}
+
+.inner-container-three .box-three:hover {
+  background-color: #ffeed8;
+}
+
+.container-three h3 {
+  color: #603809;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container-three button {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  color: black;
+  font-weight: 600;
+  font-family: Playfair Display, serif;
+  background-color: #f9c06a;
+}
+
+.section-three-container {
+  width: 100%;
+  height: 40vh;
 }
