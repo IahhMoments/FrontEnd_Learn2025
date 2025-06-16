@@ -594,6 +594,8 @@ header .main-nav .options li a:hover {
 }
 
 .s4-div-two p span {
+  display: block;
+  margin-top: 1rem;
   font-size: 2rem;
   font-weight: 600;
   color: #603809;
@@ -614,4 +616,14 @@ header .main-nav .options li a:hover {
   border-radius: 1.5rem;
   top: 4rem;
   right: 3.5rem;
+}
+
+.s4-div-two .profilePic {
+  width: 10em;
+  height: 10em;
+  background-image: url("./assets/profilePic.jpeg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 2em;
+  margin: 3rem auto 0 auto;
 }
