@@ -97,7 +97,6 @@ header .main-nav .options li a:hover {
   background-image: url("./assets/CoffeeBG.jpeg");
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -515,13 +514,15 @@ header .main-nav .options li a:hover {
   background-color: #f9c06a;
 }
 
+/* Section 3 */
+
 .section-three-container {
   width: 100%;
   height: 65vh;
   background: url("./assets/Section3BG.jpeg");
   background-position: center;
   background-size: cover;
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
   text-align: center;
   align-content: center;
   line-height: 1.5;
@@ -550,4 +551,44 @@ header .main-nav .options li a:hover {
   font-family: Playfair Display, serif;
   background-color: #f9c06a;
   margin-top: 1.5rem;
+}
+
+/* section 4 */
+.section-four-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem 5rem;
+}
+
+.s4-div-one {
+  text-align: center;
+}
+
+.s4-div-one h2 {
+  font-size: 3.375rem;
+  color: #603809;
+}
+
+.s4-div-one p {
+  font-size: 1.25rem;
+  color: #707070;
+}
+
+.s4-div-two {
+  position: relative;
+  padding: 2rem 10rem;
+  text-align: center;
+}
+
+.s4-div-two p {
+  font-size: 1.125rem;
+  color: #707070;
+  line-height: 1.5;
+}
+
+.quote-svg {
+  position: absolute;
+  top: -4rem;
+  left: 7.25rem;
 }

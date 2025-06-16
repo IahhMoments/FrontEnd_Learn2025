@@ -3,9 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- DNS prefetch for external domains -->
+    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+
+    <!-- Preconnect to speed up font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Preload critical images -->
+    <link
+      rel="preload"
+      href="./assets/CoffeeBG.jpeg"
+      as="image"
+      type="image/jpeg"
+    />
+    <link
+      rel="preload"
+      href="./assets/CoffeeSpill.png"
+      as="image"
+      type="image/png"
+    />
+
+    <!-- Preload CSS -->
+    <link rel="preload" href="styles.css" as="style" />
+
+    <!-- Load fonts with display=swap for better performance -->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=workspace_premium"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=workspace_premium&display=swap"
     />
     <link rel="stylesheet" href="styles.css" />
     <title>Coffee Website</title>
@@ -139,6 +165,50 @@
             life with coffee.
           </p>
           <button>Order now</button>
+        </div>
+      </section>
+      <section class="section-four-container">
+        <div class="s4-div-one">
+          <h2>Our coffee perfection feedback</h2>
+          <p>Our customers has amazing things to say about us</p>
+        </div>
+        <div class="s4-div-two">
+          <svg
+            fill="#603809"
+            class="quote-svg"
+            viewBox="0 0 32 32"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            width="100px"
+            height="100px"
+          >
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g
+              id="SVGRepo_tracerCarrier"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></g>
+            <g id="SVGRepo_iconCarrier">
+              <title>quote</title>
+              <path
+                d="M9.563 8.469l-0.813-1.25c-5.625 3.781-8.75 8.375-8.75 12.156 0 3.656 2.688 5.375 4.969 5.375 2.875 0 4.906-2.438 4.906-5 0-2.156-1.375-4-3.219-4.688-0.531-0.188-1.031-0.344-1.031-1.25 0-1.156 0.844-2.875 3.938-5.344zM21.969 8.469l-0.813-1.25c-5.563 3.781-8.75 8.375-8.75 12.156 0 3.656 2.75 5.375 5.031 5.375 2.906 0 4.969-2.438 4.969-5 0-2.156-1.406-4-3.313-4.688-0.531-0.188-1-0.344-1-1.25 0-1.156 0.875-2.875 3.875-5.344z"
+              ></path>
+            </g>
+          </svg>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset.....
+          </p>
+          <p>
+            <span>Johny Thomas</span>
+            <br />
+            Project manager
+          </p>
         </div>
       </section>
     </main>
