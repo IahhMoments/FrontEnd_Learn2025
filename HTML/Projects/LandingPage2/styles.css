@@ -231,6 +231,7 @@ header .main-nav .options li a:hover {
 
 .container-two-toplevel {
   text-align: center;
+  margin-bottom: 3rem;
 }
 
 .container-two span {
@@ -244,7 +245,6 @@ header .main-nav .options li a:hover {
 .container-two-toplevel > p {
   font-size: 1.25rem;
   line-height: 2;
-  margin-bottom: 1rem;
   color: #707070;
 }
 
@@ -591,4 +591,27 @@ header .main-nav .options li a:hover {
   position: absolute;
   top: -4rem;
   left: 7.25rem;
+}
+
+.s4-div-two p span {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #603809;
+}
+
+.s4-div-two .left-arrow {
+  position: absolute;
+  background-color: #f9c06a;
+  padding: 1.75rem;
+  border-radius: 1.5rem;
+  top: 4rem;
+  left: 3.5rem;
+}
+.s4-div-two .right-arrow {
+  position: absolute;
+  background-color: #f9c06a;
+  padding: 1.75rem;
+  border-radius: 1.5rem;
+  top: 4rem;
+  right: 3.5rem;
 }
