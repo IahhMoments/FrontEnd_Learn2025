@@ -11,6 +11,38 @@ body {
   min-height: 100vh;
 }
 
+/* Common Button Styles */
+.btn {
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: Playfair Display, serif;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #f9c06a;
+  color: black;
+}
+
+.btn-primary:hover {
+  background-color: #9e6c21;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+  color: #333;
+}
+
 header {
   width: 100%;
   padding: 1rem 7%;
@@ -57,37 +89,8 @@ header .main-nav .options li a:hover {
   gap: 1.5rem;
 }
 
-.nav-buttons button {
-  padding: 1rem 1.5rem;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-}
-
-.sign-in {
-  background-color: transparent;
-  color: #fff;
-  border: 2px solid #fff;
+.nav-buttons .btn {
   font-size: 1.25rem;
-  font-family: Playfair Display, serif;
-}
-
-.sign-in:hover {
-  background-color: #fff;
-  color: #333;
-}
-
-.sign-up {
-  background-color: #f9c06a;
-  color: black;
-  font-size: 1.25rem;
-  font-family: Playfair Display, serif;
-}
-
-.sign-up:hover {
-  background-color: #b8915d;
 }
 
 /* Hero Section */
@@ -117,12 +120,10 @@ header .main-nav .options li a:hover {
     transparent
   );
   backdrop-filter: blur(5px);
-  /* Applied mask feature to only apply linear-gradient to the black areas of the gradient */
   mask: linear-gradient(to right, black, transparent);
   z-index: 5;
 }
 
-/* Hero Content Text */
 .hero-content {
   padding: 1rem;
   text-align: left;
@@ -147,23 +148,8 @@ header .main-nav .options li a:hover {
   font-size: 1.375rem;
 }
 
-.hero-content .hero-button {
-  padding: 1rem 1.5rem;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
+.hero-content .btn {
   margin-top: 1.2rem;
-  font-size: 1rem;
-  color: black;
-  font-weight: 600;
-  font-family: Playfair Display, serif;
-  background-color: #f9c06a;
-}
-
-.hero-content .hero-button:hover {
-  background-color: #9e6c21;
 }
 
 /* Section 2 */
@@ -181,7 +167,6 @@ header .main-nav .options li a:hover {
   width: 100%;
   height: auto;
   margin-top: 7rem;
-  /* border: 1px solid black; */
 }
 
 /* Section 2 Container 1 */
@@ -215,20 +200,7 @@ header .main-nav .options li a:hover {
   color: #707070;
 }
 
-.container-one-button {
-  padding: 1rem 1.5rem;
-  border: none;
-  background-color: #f9c06a;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-  font-family: Playfair Display, serif;
-  font-weight: 600;
-}
-
 /* Section 2 Container 2 */
-
 .container-two-toplevel {
   text-align: center;
   margin-bottom: 3rem;
@@ -253,171 +225,33 @@ header .main-nav .options li a:hover {
   justify-content: space-evenly;
 }
 
-.container-two-inner .card-one {
+/* Common Card Styles */
+.container-two-inner > div {
   text-align: center;
 }
 
-/* Section 2 Card 1 */
-
-.container-two-inner .card-one img {
+.container-two-inner img {
   width: 287px;
   height: 12em;
   object-fit: cover;
 }
 
-.container-two-inner .card-one h3 {
+.container-two-inner h3 {
   font-size: 1.5rem;
   margin-top: 1rem;
   color: #603809;
 }
 
-.container-two-inner .card-one p {
+.container-two-inner p {
   font-size: 1.25rem;
   line-height: 1.5;
 }
 
-.container-two-inner .card-one p:last-of-type {
+.container-two-inner p:last-of-type {
   margin-bottom: 0.8rem;
 }
 
-.container-two-inner .card-one button {
-  padding: 1rem 1.5rem;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-  font-size: 1rem;
-  color: black;
-  font-weight: 600;
-  font-family: Playfair Display, serif;
-  background-color: #f9c06a;
-}
-
-/* Section 2 Card 2 */
-
-.container-two-inner .card-two {
-  text-align: center;
-}
-
-.container-two-inner .card-two img {
-  width: 287px;
-  height: 12em;
-  object-fit: cover;
-}
-
-.container-two-inner .card-two h3 {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-  color: #603809;
-}
-
-.container-two-inner .card-two p {
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.container-two-inner .card-two p:last-of-type {
-  margin-bottom: 0.8rem;
-}
-
-.container-two-inner .card-two button {
-  padding: 1rem 1.5rem;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-  font-size: 1rem;
-  color: black;
-  font-weight: 600;
-  font-family: Playfair Display, serif;
-  background-color: #f9c06a;
-}
-
-/* Section 2 Card 3 */
-
-.container-two-inner .card-three {
-  text-align: center;
-}
-
-.container-two-inner .card-three img {
-  width: 287px;
-  height: 12em;
-  object-fit: cover;
-}
-
-.container-two-inner .card-three h3 {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-  color: #603809;
-}
-
-.container-two-inner .card-three p {
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.container-two-inner .card-three p:last-of-type {
-  margin-bottom: 0.8rem;
-}
-
-.container-two-inner .card-three button {
-  padding: 1rem 1.5rem;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-  font-size: 1rem;
-  color: black;
-  font-weight: 600;
-  font-family: Playfair Display, serif;
-  background-color: #f9c06a;
-}
-
-/* Section 2 Card 4 */
-
-.container-two-inner .card-four {
-  text-align: center;
-}
-
-.container-two-inner .card-four img {
-  width: 287px;
-  height: 12em;
-}
-
-.container-two-inner .card-four h3 {
-  font-size: 1.5rem;
-  margin-top: 1rem;
-  color: #603809;
-}
-
-.container-two-inner .card-four p {
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.container-two-inner .card-four p:last-of-type {
-  margin-bottom: 0.8rem;
-}
-
-.container-two-inner .card-four button {
-  padding: 1rem 1.5rem;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-  font-size: 1rem;
-  color: black;
-  font-weight: 600;
-  font-family: Playfair Display, serif;
-  background-color: #f9c06a;
-}
-
-/* section 2 container 3 */
-
+/* Section 2 Container 3 */
 .container-three {
   text-align: center;
 }
@@ -438,9 +272,9 @@ header .main-nav .options li a:hover {
   gap: 3rem;
   justify-content: center;
 }
-/* Section 2 box 1 */
 
-.inner-container-three .box-one {
+/* Common Box Styles */
+.inner-container-three > div {
   width: 300px;
   height: auto;
   display: flex;
@@ -450,48 +284,12 @@ header .main-nav .options li a:hover {
   padding: 3rem;
 }
 
-.inner-container-three .box-one:hover {
+.inner-container-three > div:hover {
   background-color: #ffeed8;
 }
 
 .inner-container-three .material-symbols-outlined {
   font-size: 7rem;
-}
-
-/* Section 2 box 2 */
-
-.inner-container-three .box-two {
-  width: 300px;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 3rem;
-}
-
-.inner-container-three .box-two:hover {
-  background-color: #ffeed8;
-}
-
-.inner-container-three .material-symbols-outlined {
-  font-size: 7rem;
-}
-
-/* Section 2 box 3 */
-
-.inner-container-three .box-three {
-  width: 300px;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 3rem;
-}
-
-.inner-container-three .box-three:hover {
-  background-color: #ffeed8;
 }
 
 .container-three h3 {
@@ -500,22 +298,7 @@ header .main-nav .options li a:hover {
   margin-bottom: 1rem;
 }
 
-.container-three button {
-  padding: 1rem 1.5rem;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-  font-size: 1rem;
-  color: black;
-  font-weight: 600;
-  font-family: Playfair Display, serif;
-  background-color: #f9c06a;
-}
-
 /* Section 3 */
-
 .section-three-container {
   width: 100%;
   height: 65vh;
@@ -538,22 +321,11 @@ header .main-nav .options li a:hover {
   color: #ffffff;
 }
 
-.section-three-container button {
-  padding: 1rem 1.5rem;
-  border: none;
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: all 0.3s ease;
-  font-size: 1rem;
-  color: black;
-  font-weight: 600;
-  font-family: Playfair Display, serif;
-  background-color: #f9c06a;
+.section-three-container .btn {
   margin-top: 1.5rem;
 }
 
-/* section 4 */
+/* Section 4 */
 .section-four-container {
   display: flex;
   flex-direction: column;
@@ -601,20 +373,27 @@ header .main-nav .options li a:hover {
   color: #603809;
 }
 
-.s4-div-two .left-arrow {
-  position: absolute;
-  background-color: #f9c06a;
-  padding: 1.75rem;
-  border-radius: 1.5rem;
-  top: 4rem;
-  left: 3.5rem;
-}
+.s4-div-two .left-arrow,
 .s4-div-two .right-arrow {
   position: absolute;
   background-color: #f9c06a;
   padding: 1.75rem;
   border-radius: 1.5rem;
   top: 4rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.s4-div-two .left-arrow:hover,
+.s4-div-two .right-arrow:hover {
+  background-color: #9e6c21;
+}
+
+.s4-div-two .left-arrow {
+  left: 3.5rem;
+}
+
+.s4-div-two .right-arrow {
   right: 3.5rem;
 }
 
@@ -628,13 +407,13 @@ header .main-nav .options li a:hover {
   margin: 3rem auto 0 auto;
 }
 
+/* Footer */
 footer {
   width: 100%;
   height: 90vh;
 }
 
 footer > div {
-  /* border: 2px solid black; */
   height: 35vh;
   text-align: center;
   padding: 3rem 10rem;
@@ -664,7 +443,7 @@ footer > div > p {
 
 .input-container input {
   width: 100%;
-  padding: 1rem 6rem 1rem 1.5rem; /* Extra right padding for button */
+  padding: 1rem 6rem 1rem 1.5rem;
   border: none;
   font-size: 1rem;
 }
@@ -685,6 +464,11 @@ footer > div > p {
   border-radius: 5px 0 0 5px;
   font-size: 1rem;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.input-container button:hover {
+  background-color: #9e6c21;
 }
 
 footer > nav {
@@ -696,24 +480,39 @@ footer > nav {
   background-size: cover;
   display: flex;
   align-items: center;
-  gap: 5rem;
+  justify-content: space-evenly;
+}
+
+footer nav .foot-one {
+  width: 50%;
 }
 
 footer nav .foot-p {
-  width: auto;
-  height: auto;
   font-size: 1.5rem;
   color: white;
 }
 
+footer nav > div {
+  align-self: flex-start;
+}
+
 footer nav span {
-  display: block;
+  display: inline-block;
   color: white;
   font-size: 2rem;
+  position: relative;
+  top: 0;
 }
 
 footer nav li {
   list-style: none;
   color: white;
   margin-bottom: 2rem;
+}
+
+footer nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.25rem;
+  transition: color 0.3s ease;
 }
