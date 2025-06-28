@@ -498,10 +498,12 @@ footer nav > div {
 
 footer nav span {
   display: inline-block;
-  color: white;
+  color: #f9c06a;
+  font-weight: 700;
   font-size: 2rem;
   position: relative;
   top: 0;
+  margin-bottom: 2rem;
 }
 
 footer nav li {
